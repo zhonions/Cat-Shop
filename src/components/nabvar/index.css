@@ -1,0 +1,56 @@
+nav {
+  width: auto;
+  background-color: #2481a9d8;
+  padding: 0.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+a:hover {
+  color: #fdda16;
+}
+svg:hover{
+  fill: #fdda16;
+}
+  
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 3em;
+padding-left: 4em;
+}
+.cartIcon{
+  padding-right: 0.4em;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+  .logo img {
+    width: 2.4em;
+    padding-left: 0.8em;
+  }
+
+  ul {
+    text-align: center;
+    column-gap: 0.4em;
+  }
+}
